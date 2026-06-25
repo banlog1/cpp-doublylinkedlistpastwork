@@ -653,9 +653,9 @@ void pushAtIndex(mon*& front,mon*& back,const char* brand,const char* model,
             s_mon arr[maxArraySize];
         
             int listSize = 0;
-            int arraySize = 0; // For 10 elements extracted into array
+            int arraySize = 0;
         
-            // Ask user if they want to load from a file
+            
             char loadChoice;
             std::cout << "Load monitors from file? (Y/N): ";
             std::cin >> loadChoice;
